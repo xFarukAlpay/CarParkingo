@@ -29,7 +29,7 @@ public class Araba : MonoBehaviour
         transform.Translate(7f * Time.deltaTime * transform.forward);
        
         if(ilerle)
-        transform.Translate(15f * Time.deltaTime * transform.forward);
+        transform.Translate(14f * Time.deltaTime * transform.forward);
         if(PlatformYukselt)
         {
             if(YukselmeDeger > _GameManager.Platform_1.transform.position.y )
